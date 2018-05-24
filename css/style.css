@@ -40,3 +40,43 @@
   padding-top: 20px;
   float: left;
 }
+
+.article-left {
+  height: 500px;
+  padding-top: 7px;
+  margin-right: -10px;
+}
+
+.article-right {
+  height: 500px;
+  padding-top: 7px;
+  margin-left: -10px; 
+}
+
+.article-left p, .article-right p {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.article-title {
+  width: 98%;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.darkgreen {
+  background-color: #CFF2E1;
+  border: 1px solid #A4BFB1;
+}
+.green {
+  background-color: #F5FFFA;
+  border: 1px solid #CFF2E1;
+}
+.darkblue {
+  background-color: #CFDFF1;
+  border: 1px solid #A3B0BE;
+}
+.blue {
+  background-color: #F5FAFF;
+  border: 1px solid #CFDFF1;
+}
