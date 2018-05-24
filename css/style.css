@@ -1,9 +1,19 @@
+.container {
+  max-width: 85%;
+  float: right;
+}
+
 .nav {
   position: absolute;
   top: 0;
   left: 0;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding-right: 25px;
 }
-
+.logo {
+  max-width: 125px;
+}
 .header {
   border: 1px solid #ddd;
   background-color: #f9f9f9;
