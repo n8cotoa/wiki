@@ -8,6 +8,11 @@
   top: 0;
   right: 0;
 }
+
+.login a {
+  padding: 5px;
+}
+
 .sidenav {
   position: absolute;
   top: 0;
@@ -15,7 +20,12 @@
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   padding: 0px 25px;
+}
 
+.sidenav li {
+  list-style: none;
+  margin-left: -39px;
+  padding-bottom: 2px;
 }
 .logo {
   max-width: 125px;
@@ -25,6 +35,12 @@
 .nav {
   margin-top: 50px;
 }
+
+#search-bar {
+  width: 300px;
+  height: 25px;
+}
+
 .header {
   border: 1px solid #ddd;
   background-color: #f9f9f9;
@@ -44,18 +60,24 @@
 .article-left {
   height: 500px;
   padding-top: 7px;
-  margin-right: -10px;
+  margin-right: -12px;
 }
 
 .article-right {
   height: 500px;
   padding-top: 7px;
-  margin-left: -10px; 
+  margin-left: -12px;
 }
 
-.article-left p, .article-right p {
+.article-left p, .article-right p, .article-bottom p{
   padding-top: 5px;
   padding-left: 10px;
+}
+
+.article-bottom {
+  margin-top: 5px;
+  padding-top: 7px;
+  height: 250px;
 }
 
 .article-title {
@@ -79,4 +101,24 @@
 .blue {
   background-color: #F5FAFF;
   border: 1px solid #CFDFF1;
+}
+
+.darkpurple {
+  background-color: #DDCFF1;
+  border: 1px solid #AFA4BE;
+}
+
+.purple {
+  background-color: #FAF5FF;
+  border: 1px solid #DDCFF1;
+}
+
+.border-btm {
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+.other li {
+  padding-bottom: 5px;
+
 }
