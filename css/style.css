@@ -2,7 +2,12 @@
   margin-left: 220px;
   margin-right: 25px;
 }
-
+.login {
+  margin: 15px 25px 15px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .sidenav {
   position: absolute;
   top: 0;
@@ -16,14 +21,20 @@
   max-width: 125px;
   margin-bottom: 25px;
 }
+
+.nav {
+  margin-top: 50px;
+}
 .header {
   border: 1px solid #ddd;
   background-color: #f9f9f9;
+  margin: 15px 0px;
 }
 
 .welcome {
   text-align: center;
   float: left;
+
 }
 .category-links {
   padding-top: 20px;
